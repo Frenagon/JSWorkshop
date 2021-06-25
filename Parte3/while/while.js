@@ -1,6 +1,6 @@
 ////while
 let nombre = "";
-while (nombre == "") {
+while (nombre == "" || nombre == null) {
   nombre = prompt("¿Como te llamas?");
 }
 alert("Hola " + nombre + "!!");
@@ -10,5 +10,5 @@ alert("Hola " + nombre + "!!");
 // let nombre = "Francisco";
 // do {
 //   nombre = prompt("¿Como te llamas?");
-// } while (nombre == "")
+// } while (nombre == "" || nombre == null)
 // alert("Hola " + nombre + "!!");
